@@ -1,39 +1,75 @@
-# RVBBIT Arsenal: The Ultimate Offense & Defense Duality
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# rvbbit-arsenal
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Platform: Linux x86_64](https://img.shields.io/badge/Platform-Linux%20x86__64-blue)
-![Status: Research Epic](https://img.shields.io/badge/Status-Research%20Epic-red)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/rvbbit-arsenal)
 
-## Overview
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-This repository houses two sides of the same coin:
+## Architecture
 
-- **`attack/`** – Project RVBBIT, a classic Linux kernel rootkit with embedded miner and network worm.
-- **`defense/`** – RvbbitSafe, the definitive countermeasure that detects, neutralizes, and removes every trace of RVBBIT.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-Together, they form the comprehensive educational resource on modern Linux rootkit warfare.
+## Install
 
-## Quick Start
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-### Build the Nightmare (Attack)
 ```bash
-cd attack
-First, embed the XMRig payload (see attack/README.md)
-./build.sh
-Deploy rvbbit_installer on isolated test VM
+git clone https://github.com/Interested-Deving-1896/rvbbit-arsenal.git
+cd rvbbit-arsenal
+```
 
-Note: Detailed instructions on embedding payloads are in attack/README.md.
-Deploy the Cure (Defense)
-bash
-cd defense
-chmod +x install.sh
-sudo ./install.sh
-Documentation
-Full technical whitepaper available in docs/whitepaper.md.
+## Usage
 
-Disclaimer
-This software is provided for authorized educational and defensive research only. Misuse is strictly prohibited and may violate computer crime laws. The authors assume no liability for improper use.
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-## Limitations
+## Configuration
 
-This is a learning prototype. It uses dated techniques, generates detectable telemetry, and will not evade modern EDRs or hypervisor integrity checks. Not intended for operational use.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/rvbbit-arsenal`](https://github.com/Interested-Deving-1896/rvbbit-arsenal) and mirrored through:
+
+```
+Interested-Deving-1896/rvbbit-arsenal  ──►  OpenOS-Project-OSP/rvbbit-arsenal  ──►  OpenOS-Project-Ecosystem-OOC/rvbbit-arsenal
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/rvbbit-arsenal/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
